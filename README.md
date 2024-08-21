@@ -1,3 +1,6 @@
+<div align="center">
+    <img src="https://github.com/KellyKimHyeJin/KellyKimHyeJin/blob/main/introduction.svg">
+</div>
 <h3 align="center">⚙️ Tech Stack ⚙️</h3>
 <div align="center">
     <img src="https://img.shields.io/badge/JAVA-F2BB13?style=flat&logo=&logoColor=white"/>
