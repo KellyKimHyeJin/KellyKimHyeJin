@@ -7,40 +7,40 @@
     }
   </style>
 
-  <g>
+  <g id="firstBubbleGroup">
     <animate id="firstBubble" attributeName="opacity" values="0;1" dur="1s" begin="0s" fill="freeze"/>
     <path d="
-      M 10 10
-      C 5 10, 0 15, 0 20
-      L 0 70
-      C 0 75, 5 80, 10 80
-      L 200 80
-      C 205 80, 210 75, 210 70
-      L 210 20
-      C 210 15, 205 10, 200 10
+      M 20 20
+      Q 10 20, 10 30
+      L 10 60
+      Q 10 70, 20 70
+      L 180 70
+      Q 190 70, 190 60
+      L 190 30
+      Q 190 20, 180 20
       Z
     " fill="#f1f1f1"/>
-    <text x="15" y="50" font-size="24" class="bubble-text" dominant-baseline="middle">
+    <text x="25" y="45" font-size="20" class="bubble-text" dominant-baseline="middle">
       안녕하세요!😃
     </text>
   </g>
   
-  <g>
+  <g id="secondBubbleGroup" opacity="0">
     <animate attributeName="opacity" values="0;1" dur="1s" begin="firstBubble.end" fill="freeze"/>
     <path d="
-      M 10 90
-      C 5 90, 0 95, 0 100
-      L 0 185
-      C 0 190, 5 195, 10 195
-      L 500 195
-      C 505 195, 510 190, 510 185
-      L 510 100
-      C 510 95, 505 90, 500 90
+      M 20 80
+      Q 10 80, 10 90
+      L 10 155
+      Q 10 165, 20 165
+      L 480 165
+      Q 490 165, 490 155
+      L 490 90
+      Q 490 80, 480 80
       Z
     " fill="#f1f1f1"/>
-    <text x="15" y="137" font-size="24" class="bubble-text" dominant-baseline="middle">
-      <tspan x="15" dy="0">열정적으로 새로운 도전을 추구하는✨</tspan>
-      <tspan x="15" dy="1.2em">개발자 김혜진입니다!👩‍💻</tspan>
+    <text x="25" y="117" font-size="20" class="bubble-text" dominant-baseline="middle">
+      <tspan x="25" dy="0">열정적으로 새로운 도전을 추구하는✨</tspan>
+      <tspan x="25" dy="1.2em">개발자 김혜진입니다!👩‍💻</tspan>
     </text>
   </g>
 </svg>
