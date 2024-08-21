@@ -43,6 +43,38 @@
     <img src="https://img.shields.io/badge/Jira-0052CC?style=flat&logo=jira&logoColor=white"/>
     <img src="https://img.shields.io/badge/Swagger-85EA2D?style=flat&logo=swagger&logoColor=white"/>
   </div>
+<!-- <h3 align="center">💬 Contact Me 💬</h3> -->
+<h3>🖥️ Experience 🖥️</h3>
+<div>
+    <h4>💫 엔에스원소프트 첨단해양연구소 인턴 (2023.12 ~ 2024.08 Backend Developer Intern) </h4>
+<!--     <p style="font-weight: 300;"><em>2023.12 ~ 2024.08 Backend Developer Intern  </em></p> -->
+    <ul>
+        <li>2024년 NIA 빅데이터 플랫폼 및 센터 구축 사업 센터 사이트 개발</li>
+        <li>연안 빅데이터 플랫폼 연계 데이터 수집, 가공 프로세스 구축 및 성능 최적화</li>
+        <li>사내 MSA 기반 프로젝트 Jenkins 자동화 Pipeline 구축</li>
+    </ul>
+</div>
+<div>
+    <h4>💫 KStartUp 중소벤처기업부 청년창업 지원사업 선정 (2023.09 ~ 2024.08 Backend Developer) </h4>
+    <ul>
+        <li> 이민자를 위한 한국어 교육 서비스 백엔드 개발 및 인프라 설계</li>
+    </ul>
+</div>
+<div>
+    <h4>💫 GND 하루한글 SDGs 소셜벤처 챔피언십 동상 수상 (2023.10) </h4>
+</div>
+<div>
+    <h4> 💫 UMC 해커톤 최우수상 여행지에서 보물찾기 서비스 Green Quest 백엔드 개발 (2023) </h4>
+</div>
+<p>💫 NextStep 초록 스터디 참여 및 운영 서비스 개선 프로젝트 개발 (2024)</p>
+<p>💫 UMC 자전거 주행기록으로 그리는 관광 서비스 DrawMap 백엔드 개발 (2023) </p>
+<p>💫 KHUTHON 화상 질문 서비스 백엔드 개발 (2023) </p>
+<p>💫 KHU-RETURN 교내 동아리 사이트 및 학습자료 공부 드라이브 서비스 백엔드 개발 (2023) </p>
+<p>💫 금융보안원 주관 공모전 금융권 클라우드 추천시스템 FCDP 모델 개발 (2022) </p>
+<p>💫 국토교통부 주관 메타버스 스마트시티 공모전 Public Leading Automatic City 개발 (2022) </p>
+<p>💫 UMC 모임 매칭 서비스 WithMe 개발 (2022) </p>
+
+
 
 
 <!--
