@@ -8,7 +8,7 @@
   </style>
 
   <g id="firstBubbleGroup">
-    <animate id="firstBubble" attributeName="opacity" values="0;1" dur="1s" begin="0s" fill="freeze"/>
+    <animate id="firstBubble" attributeName="opacity" values="0;1" dur="1.5s" begin="0s" fill="freeze"/>
     <path d="
       M 20 20
       Q 10 20, 10 30
