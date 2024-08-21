@@ -1,28 +1,44 @@
-<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
-  <path d="
-    M 50 50
-    C 20 50, 0 70, 0 100
-    L 0 300
-    C 0 330, 20 350, 50 350
-    L 550 350
-    C 580 350, 600 330, 600 300
-    L 600 100
-    C 600 70, 580 50, 550 50
-    Z
-  " fill="#f1f1f1" transform="translate(0, 25)"/>
+<svg width="600" height="280" viewBox="0 0 600 280" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bubble-text {
+      font-family: 'Arial', 'Helvetica', sans-serif;
+      font-weight: bold;
+      fill: #333;
+    }
+  </style>
 
-  <text x="130" y="175" font-size="18" fill="#333">
-    <tspan>
-      <animate attributeName="opacity" values="0;1;0;1;0;1" dur="2s" begin="0s" repeatCount="1"/>
-      ...
-    </tspan>
-    <tspan x="130" dy="1.2em">
-      <animate attributeName="opacity" values="0;0;1" dur="3s" begin="2s" fill="freeze"/>
-      안녕하세요!
-    </tspan>
-    <tspan x="130" dy="1.2em">
-      <animate attributeName="opacity" values="0;0;1" dur="3s" begin="3s" fill="freeze"/>
-       열정적으로 새로운 도전을 추구하는 개발자 김혜진입니다!
-    </tspan>
-  </text>
+  <g>
+    <animate id="firstBubble" attributeName="opacity" values="0;1" dur="1s" begin="0s" fill="freeze"/>
+    <path d="
+      M 20 20
+      C 10 20, 0 30, 0 40
+      L 0 80
+      C 0 90, 10 100, 20 100
+      L 180 100
+      C 190 100, 200 90, 200 80
+      L 200 40
+      C 200 30, 190 20, 180 20
+      Z
+    " fill="#f1f1f1"/>
+    <text x="30" y="65" font-size="20" class="bubble-text">안녕하세요!😃</text>
+  </g>
+  
+  <g>
+    <animate attributeName="opacity" values="0;1" dur="1s" begin="firstBubble.end" fill="freeze"/>
+    <path d="
+      M 20 120
+      C 10 120, 0 130, 0 140
+      L 0 220
+      C 0 230, 10 240, 20 240
+      L 580 240
+      C 590 240, 600 230, 600 220
+      L 600 140
+      C 600 130, 590 120, 580 120
+      Z
+    " fill="#f1f1f1"/>
+    <text x="30" y="165" font-size="20" class="bubble-text">
+      <tspan x="30" dy="0">열정적으로 새로운 도전을 추구하는✨</tspan>
+      <tspan x="30" dy="1.2em">    개발자 김혜진입니다!👩‍💻 </tspan>
+    </text>
+  </g>
 </svg>
