@@ -1,0 +1,28 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <path d="
+    M 50 50
+    C 20 50, 0 70, 0 100
+    L 0 300
+    C 0 330, 20 350, 50 350
+    L 550 350
+    C 580 350, 600 330, 600 300
+    L 600 100
+    C 600 70, 580 50, 550 50
+    Z
+  " fill="#f1f1f1" transform="translate(0, 25)"/>
+
+  <text x="130" y="175" font-size="18" fill="#333">
+    <tspan>
+      <animate attributeName="opacity" values="0;1;0;1;0;1" dur="2s" begin="0s" repeatCount="1"/>
+      ...
+    </tspan>
+    <tspan x="130" dy="1.2em">
+      <animate attributeName="opacity" values="0;0;1" dur="3s" begin="2s" fill="freeze"/>
+      안녕하세요!
+    </tspan>
+    <tspan x="130" dy="1.2em">
+      <animate attributeName="opacity" values="0;0;1" dur="3s" begin="3s" fill="freeze"/>
+       열정적으로 새로운 도전을 추구하는 개발자 김혜진입니다!
+    </tspan>
+  </text>
+</svg>
