@@ -40,7 +40,7 @@
     " fill="#f1f1f1"/>
     <text x="25" y="117" font-size="20" class="bubble-text" dominant-baseline="middle">
       <tspan x="25" dy="0">열정적으로 새로운 도전을 추구하는✨</tspan>
-      <tspan x="25" dy="1.2em">개발자입니다!👩‍💻</tspan>
+      <tspan x="25" dy="1.2em">개발자입니다!!👩‍💻</tspan>
     </text>
   </g>
 </svg>
